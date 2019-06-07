@@ -154,6 +154,6 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
 
     # Create the text assistant
-    assistant = GoogleTextAssistant('en-AU', 'HA_GA', 'HA_GA_TEXT_SERVER',
+    assistant = GoogleTextAssistant('en-US', 'HA_GA', 'HA_GA_TEXT_SERVER',
                              True, grpc_channel, DEFAULT_GRPC_DEADLINE)
     app.run(host='0.0.0.0')
